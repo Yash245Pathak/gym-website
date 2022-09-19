@@ -1,0 +1,61 @@
+.testimonials{
+    display: flex;
+    gap: 1rem;
+    padding: 0 2rem;
+}
+.left-s{
+    display: flex;
+    flex: 1 1;
+    gap: 2rem;
+    flex-direction: column;
+    text-transform: uppercase;
+    color: white;
+}
+.left-s>:nth-child(1){
+    color: var(--orange);
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.left-s>:nth-child(2),.left-s>:nth-child(3){
+    font-weight: bold;
+    font-size: 3rem;
+}
+.left-s>:nth-child(4){
+    text-transform: none;
+    text-align: justify;
+    letter-spacing: 2px;
+    line-height: 40px;
+}
+.right-s{
+    flex: 1;
+    position: relative;
+    align-items: center;
+}
+.right-s>img{
+    position: absolute;
+    width: 17rem;
+    height: 20rem;
+    object-fit: cover;
+    right: 8rem;
+    top: 2rem;
+}
+.right-s>:nth-child(1){
+    position: absolute;
+    width: 17rem;
+    height: 20rem;
+    background: transparent;
+    border: 2px solid orange;
+    right: 9rem;
+    top: 1rem;
+}
+.arrows{
+    display: flex;
+    gap: 1rem;
+    position: absolute;
+    top: 18rem;
+    /* right: 1rem; */
+    left: 8rem;
+}
+.arrows>img{
+    width: 2rem;
+}
